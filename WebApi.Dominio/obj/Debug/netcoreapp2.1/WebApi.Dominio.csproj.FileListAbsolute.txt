@@ -1,0 +1,17 @@
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.deps.json
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.AssemblyInfoInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.AssemblyInfo.cs
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.deps.json
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.AssemblyInfoInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.AssemblyInfo.cs
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.csprojAssemblyReference.cache

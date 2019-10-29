@@ -1,0 +1,16 @@
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\07-WebApi.infraestrutura.deps.json
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\07-WebApi.infraestrutura.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\07-WebApi.infraestrutura.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\02-WebApi.Dominio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\04-WebApi.Interface.Servico.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\06-WebApi.Interface.Infraestrutura.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\02-WebApi.Dominio.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\04-WebApi.Interface.Servico.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\bin\Debug\netcoreapp2.2\06-WebApi.Interface.Infraestrutura.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\obj\Debug\netcoreapp2.2\07-WebApi.infraestrutura.csprojAssemblyReference.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\obj\Debug\netcoreapp2.2\07-WebApi.infraestrutura.csproj.CoreCompileInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\obj\Debug\netcoreapp2.2\07-WebApi.infraestrutura.AssemblyInfoInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\obj\Debug\netcoreapp2.2\07-WebApi.infraestrutura.AssemblyInfo.cs
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\obj\Debug\netcoreapp2.2\07-WebApi.infraestrutura.csproj.CopyComplete
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\obj\Debug\netcoreapp2.2\07-WebApi.infraestrutura.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\07-WebApi.Repositorio\obj\Debug\netcoreapp2.2\07-WebApi.infraestrutura.pdb

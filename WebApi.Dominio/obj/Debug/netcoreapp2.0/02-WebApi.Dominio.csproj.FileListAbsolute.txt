@@ -1,0 +1,8 @@
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\bin\Debug\netcoreapp2.0\02-WebApi.Dominio.deps.json
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\bin\Debug\netcoreapp2.0\02-WebApi.Dominio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\bin\Debug\netcoreapp2.0\02-WebApi.Dominio.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.0\02-WebApi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.0\02-WebApi.Dominio.AssemblyInfoInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.0\02-WebApi.Dominio.AssemblyInfo.cs
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.0\02-WebApi.Dominio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\02-WebApi.Dominio\obj\Debug\netcoreapp2.0\02-WebApi.Dominio.pdb

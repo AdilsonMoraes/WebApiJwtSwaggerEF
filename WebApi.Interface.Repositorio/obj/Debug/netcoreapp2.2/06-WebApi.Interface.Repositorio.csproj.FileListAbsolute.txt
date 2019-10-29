@@ -1,0 +1,9 @@
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\bin\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.deps.json
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\bin\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\bin\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.csprojAssemblyReference.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.AssemblyInfoInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.AssemblyInfo.cs
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\06-WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.2\06-WebApi.Interface.Repositorio.pdb

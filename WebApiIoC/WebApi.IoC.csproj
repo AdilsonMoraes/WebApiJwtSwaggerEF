@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>WebApiIoC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi.Dominio\WebApi.Dominio.csproj" />
+    <ProjectReference Include="..\WebApi.Interface.Repositorio\WebApi.Interface.Infraestrutura.csproj" />
+    <ProjectReference Include="..\WebApi.Interface.Servico\WebApi.Interface.Servico.csproj" />
+    <ProjectReference Include="..\WebApi.Repositorio\WebApi.infraestrutura.csproj" />
+    <ProjectReference Include="..\Webapi.Servico\Webapi.Servico.csproj" />
+  </ItemGroup>
+
+</Project>

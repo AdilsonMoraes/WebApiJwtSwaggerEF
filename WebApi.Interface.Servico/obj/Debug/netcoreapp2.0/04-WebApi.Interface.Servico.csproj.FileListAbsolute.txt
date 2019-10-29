@@ -1,0 +1,12 @@
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\bin\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.deps.json
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\bin\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\bin\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\bin\Debug\netcoreapp2.0\02-WebApi.Dominio.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\bin\Debug\netcoreapp2.0\02-WebApi.Dominio.pdb
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\obj\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.csprojAssemblyReference.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\obj\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.csproj.CoreCompileInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\obj\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.AssemblyInfoInputs.cache
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\obj\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.AssemblyInfo.cs
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\obj\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.csproj.CopyComplete
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\obj\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.dll
+C:\Users\adilson.moreira\source\repos\WebApiEfJwT\04-WebApi.Interface.Servico\obj\Debug\netcoreapp2.0\04-WebApi.Interface.Servico.pdb

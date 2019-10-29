@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Webapi.Teste</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
+    <PackageReference Include="Moq" Version="4.9.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi.Dominio\WebApi.Dominio.csproj" />
+    <ProjectReference Include="..\WebApi.Interface.Repositorio\WebApi.Interface.Infraestrutura.csproj" />
+    <ProjectReference Include="..\WebApi.Interface.Servico\WebApi.Interface.Servico.csproj" />
+    <ProjectReference Include="..\WebApi.Repositorio\WebApi.infraestrutura.csproj" />
+    <ProjectReference Include="..\Webapi.Servico\Webapi.Servico.csproj" />
+  </ItemGroup>
+
+</Project>
