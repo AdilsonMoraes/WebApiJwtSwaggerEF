@@ -79,3 +79,7 @@ T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApiCliente\obj\Debug\netcoreapp2.1\We
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApiCliente\obj\Debug\netcoreapp2.1\WebApiCliente.csproj.CopyComplete
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApiCliente\obj\Debug\netcoreapp2.1\WebApiCliente.dll
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApiCliente\obj\Debug\netcoreapp2.1\WebApiCliente.pdb
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApiCliente\bin\Debug\netcoreapp2.1\WebApi.DTO.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApiCliente\bin\Debug\netcoreapp2.1\WebApi.Enums.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApiCliente\bin\Debug\netcoreapp2.1\WebApi.DTO.pdb
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApiCliente\bin\Debug\netcoreapp2.1\WebApi.Enums.pdb

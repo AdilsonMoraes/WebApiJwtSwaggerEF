@@ -1,0 +1,14 @@
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\bin\Debug\netcoreapp2.1\WebApi.DTO.deps.json
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\bin\Debug\netcoreapp2.1\WebApi.DTO.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\bin\Debug\netcoreapp2.1\WebApi.DTO.pdb
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\bin\Debug\netcoreapp2.1\WebApi.Dominio.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\bin\Debug\netcoreapp2.1\WebApi.Dominio.pdb
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\obj\Debug\netcoreapp2.1\WebApi.DTO.csprojAssemblyReference.cache
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\obj\Debug\netcoreapp2.1\WebApi.DTO.csproj.CoreCompileInputs.cache
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\obj\Debug\netcoreapp2.1\WebApi.DTO.AssemblyInfoInputs.cache
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\obj\Debug\netcoreapp2.1\WebApi.DTO.AssemblyInfo.cs
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\obj\Debug\netcoreapp2.1\WebApi.DTO.csproj.CopyComplete
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\obj\Debug\netcoreapp2.1\WebApi.DTO.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\obj\Debug\netcoreapp2.1\WebApi.DTO.pdb
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\bin\Debug\netcoreapp2.1\WebApi.Enums.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.DTO\bin\Debug\netcoreapp2.1\WebApi.Enums.pdb

@@ -11,27 +11,27 @@ namespace WebApi.infraestrutura.Fornecedores.v1.Repositorio
 
         }
 
-        public void Delete(int Id)
+        public Fornecedor BuscaPeloId(int id)
         {
             throw new System.NotImplementedException();
         }
 
-        public Fornecedor GetAll()
+        public Fornecedor BuscaTodos()
         {
             throw new System.NotImplementedException();
         }
 
-        public Fornecedor GetByFornecedor(Fornecedor fornecedor)
+        public void Deletar(int Id)
         {
             throw new System.NotImplementedException();
         }
 
-        public Fornecedor GetByID(int id)
+        public Fornecedor RetornarFornecedor(Fornecedor fornecedor)
         {
             throw new System.NotImplementedException();
         }
 
-        public void Save(Fornecedor fornecedor)
+        public void Salvar(Fornecedor fornecedor)
         {
             throw new System.NotImplementedException();
         }

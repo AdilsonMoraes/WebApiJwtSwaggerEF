@@ -1908,6 +1908,21 @@
           "WebApi.Dominio.dll": {}
         }
       },
+      "WebApi.DTO/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.1",
+          "WebApi.Dominio": "1.0.0",
+          "WebApi.Enums": "1.0.0"
+        },
+        "runtime": {
+          "WebApi.DTO.dll": {}
+        }
+      },
+      "WebApi.Enums/1.0.0": {
+        "runtime": {
+          "WebApi.Enums.dll": {}
+        }
+      },
       "WebApi.infraestrutura/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.11",
@@ -1934,7 +1949,9 @@
       "WebApi.Interface.Servico/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "2.1.1",
+          "WebApi.DTO": "1.0.0",
           "WebApi.Dominio": "1.0.0",
+          "WebApi.Enums": "1.0.0",
           "WebApi.Interface.Infraestrutura": "1.0.0",
           "WebApi.infraestrutura": "1.0.0",
           "log4net": "2.0.8"
@@ -2955,6 +2972,16 @@
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
     "WebApi.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApi.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApi.Enums/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

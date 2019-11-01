@@ -8,12 +8,10 @@ namespace Webapi.Teste
     public class TesteInclusaoUsuario
     {
         private Mock<IUsuarioLoginServico> usuarioLoginServico;
-        private Mock<IUsuarioLoginRepositorio> usuarioLoginRepositorio;
 
         public TesteInclusaoUsuario()
         {
             usuarioLoginServico = new Mock<IUsuarioLoginServico>();
-            usuarioLoginRepositorio = new Mock<IUsuarioLoginRepositorio>();
 
             var user = new UsuarioLogin()
             {
@@ -24,7 +22,7 @@ namespace Webapi.Teste
             };
 
 
-            usuarioLoginServico.Setup(t => t.Cadastra(user)).Returns(true);
+            //usuarioLoginServico.Setup(t => t.Cadastra(user)).Returns(true);
         }
 
 

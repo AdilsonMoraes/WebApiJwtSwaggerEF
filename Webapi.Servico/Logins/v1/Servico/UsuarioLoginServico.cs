@@ -1,10 +1,9 @@
 ﻿using Microsoft.Extensions.Localization;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Webapi.Servico.Logins.v1.Validacao;
 using WebApi.Dominio.Globalizacao.v1;
 using WebApi.Dominio.Login.v1;
+using WebApi.Dominio.Mensagens.v1;
+using WebApi.DTO.Login.v1;
+using WebApi.Enums.Exceptions.Login.v1;
 using WebApi.Interface.Infraestrutura.Login.v1;
 using WebApi.Interface.Servico.Login.v1;
 
@@ -13,56 +12,70 @@ namespace Webapi.Servico.Logins.v1.Servico
     public class UsuarioLoginServico : IUsuarioLoginServico
     {
 
-        private readonly IUsuarioLoginRepositorio _repositorio;
+        private readonly IUsuarioLoginRepositorio _usuarioRepositorio;
         private readonly IStringLocalizer<Textos> _globalizacao;
 
-        public UsuarioLoginServico(IUsuarioLoginRepositorio repositorio,
+        public UsuarioLoginServico(IUsuarioLoginRepositorio usuarioRepositorio,
                                     IStringLocalizer<Textos> globalizacao)
         {
-            _repositorio = repositorio;
+            _usuarioRepositorio = usuarioRepositorio;
             _globalizacao = globalizacao;
         }
 
-        public bool AlteraSenhaDo(UsuarioLogin login)
+        public void AlteraSenhaDo(string login, string senha)
         {
-            return _repositorio.AlteraSenhaDo(login);
-        }
-
-        public bool Cadastra(UsuarioLogin login)
-        {
-            if (!LoginExistePara(login.Usuario))
+            var usuarioCadastrado = _usuarioRepositorio.RetornaLogin(login);
+            if (usuarioCadastrado != null)
             {
-                return _repositorio.Cadastra(login);
+                usuarioCadastrado.Senha = senha;
+                var ret = _usuarioRepositorio.AlteraSenhaDo(usuarioCadastrado);
+
+                if (!ret)
+                {
+                    throw new ErroException(LoginEnumException.ERRO_ALTERACAO_LOGIN.Codigo.ToString(),
+                        LoginEnumException.ERRO_ALTERACAO_LOGIN.Valor);
+                }
+            }
+            else
+            {
+                throw new ErroException(LoginEnumException.USUARIO_INVALIDO.Codigo.ToString(),
+                    LoginEnumException.USUARIO_INVALIDO.Valor);
             }
 
-            return false;
         }
 
-        public UsuarioLogin Retorna(UsuarioLogin login)
+        public void Cadastra(UsuarioLogin login)
         {
-            if (IsValido(login))
+            LoginExistePara(login.Usuario);
+            _usuarioRepositorio.Cadastra(login);
+        }
+
+        public UsuarioLogin Retorna(UsuarioLogin user)
+        {
+            var ret = default(UsuarioLogin);
+
+            if (!string.IsNullOrWhiteSpace(user.Usuario) && !string.IsNullOrWhiteSpace(user.Senha))
             {
-                return _repositorio.Retorna(login);
+                ret = _usuarioRepositorio.Retorna(user.Usuario, user.Senha);
             }
 
-            return default(UsuarioLogin);
+            return ret;
         }
 
         public UsuarioLogin RetornaLogin(string login)
         {
-            return _repositorio.RetornaLogin(login);
+            return _usuarioRepositorio.RetornaLogin(login);
         }
 
-        private bool LoginExistePara(string nomeUsuario)
+        private void LoginExistePara(string nomeUsuario)
         {
-            return _repositorio.LoginExistePara(nomeUsuario);
-        }
+            var ExisteLogin = _usuarioRepositorio.LoginExistePara(nomeUsuario);
 
-        private bool IsValido(UsuarioLogin login)
-        {
-            var validacao = new ValidaUsuarioLogin(_globalizacao);
-            return validacao.Validate(login).IsValid;
+            if (ExisteLogin)
+            {
+                throw new ErroException(LoginEnumException.LOGIN_JA_CADASTRADO.Codigo.ToString(),
+                    LoginEnumException.LOGIN_JA_CADASTRADO.Valor);
+            }
         }
-
     }
 }

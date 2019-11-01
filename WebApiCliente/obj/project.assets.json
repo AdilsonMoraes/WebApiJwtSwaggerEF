@@ -4917,6 +4917,31 @@
           "bin/placeholder/WebApi.Dominio.dll": {}
         }
       },
+      "WebApi.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.1",
+          "WebApi.Dominio": "1.0.0",
+          "WebApi.Enums": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebApi.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApi.DTO.dll": {}
+        }
+      },
+      "WebApi.Enums/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/WebApi.Enums.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApi.Enums.dll": {}
+        }
+      },
       "WebApi.infraestrutura/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -4955,7 +4980,9 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.Extensions.Logging": "2.1.1",
+          "WebApi.DTO": "1.0.0",
           "WebApi.Dominio": "1.0.0",
+          "WebApi.Enums": "1.0.0",
           "WebApi.Interface.Infraestrutura": "1.0.0",
           "WebApi.infraestrutura": "1.0.0",
           "log4net": "2.0.8"
@@ -13345,6 +13372,16 @@
       "type": "project",
       "path": "../WebApi.Dominio/WebApi.Dominio.csproj",
       "msbuildProject": "../WebApi.Dominio/WebApi.Dominio.csproj"
+    },
+    "WebApi.DTO/1.0.0": {
+      "type": "project",
+      "path": "../WebApi.DTO/WebApi.DTO.csproj",
+      "msbuildProject": "../WebApi.DTO/WebApi.DTO.csproj"
+    },
+    "WebApi.Enums/1.0.0": {
+      "type": "project",
+      "path": "../WebApi.Enums/WebApi.Enums.csproj",
+      "msbuildProject": "../WebApi.Enums/WebApi.Enums.csproj"
     },
     "WebApi.infraestrutura/1.0.0": {
       "type": "project",

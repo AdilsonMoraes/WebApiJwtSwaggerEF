@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Webapi.Servico.Empresas.v1.Servico;
+using Webapi.Servico.ErroMappers.v1;
 using Webapi.Servico.Fornecedores.v1.Servico;
 using Webapi.Servico.JwtAutenticacao.v1;
 using Webapi.Servico.Logins.v1.Servico;
@@ -13,6 +14,7 @@ using WebApi.Interface.Infraestrutura.Fornecedores.v1;
 using WebApi.Interface.Infraestrutura.InterfaceGenerica.v1;
 using WebApi.Interface.Infraestrutura.Login.v1;
 using WebApi.Interface.Servico.Empresa.v1;
+using WebApi.Interface.Servico.ErroMapper.v1;
 using WebApi.Interface.Servico.Fornecedor.v1;
 using WebApi.Interface.Servico.Jwt;
 using WebApi.Interface.Servico.Login.v1;
@@ -28,6 +30,12 @@ namespace WebApiIoC
             Autenticacao(services);
             Fornecedor(services);
             Empresa(services);
+            Erro(services);
+        }
+
+        private static void Erro(IServiceCollection services)
+        {
+            services.AddTransient<IErrosMapperServico, ErrosMapperServico>();
         }
 
         private static void Login(IServiceCollection services)

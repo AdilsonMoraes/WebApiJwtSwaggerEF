@@ -7,9 +7,9 @@ namespace WebApi.Interface.Infraestrutura.Empresas.v1
 {
     public interface IEmpresaRepositorio
     {
-        Empresa GetByID(int id);
-        Empresa GetAll();
-        void Save(Empresa empresa);
-        void Delete(int Id);
+        Empresa BuscarPeloId(int id);
+        Empresa BuscarPeloCnpjUfNome(string cnpj, string uf, string nome);
+        void Salvar(Empresa empresa);
+        void Deletar(Empresa empresa);
     }
 }

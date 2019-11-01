@@ -1,5 +1,5 @@
 ﻿using Moq;
-using WebApi.Dominio.Login.v1;
+using WebApi.DTO.Login.v1;
 using WebApi.Interface.Infraestrutura.Login.v1;
 using WebApi.Interface.Servico.Login.v1;
 
@@ -15,16 +15,16 @@ namespace Webapi.Teste
             usuarioLoginServico = new Mock<IUsuarioLoginServico>();
             usuarioLoginRepositorio = new Mock<IUsuarioLoginRepositorio>();
 
-            var user = new UsuarioLogin()
+            var user = new LoginDTO()
             {
                 Usuario = "Adilson",
                 Senha = "adilson",
                 IsAdministrator = true,
-                TokenAuth = ""
+                token_auth = ""
             };
 
 
-            usuarioLoginServico.Setup(t => t.AlteraSenhaDo(user)).Returns(true);
+            //usuarioLoginServico.Setup(t => t.AlteraSenhaDo(user)).Returns(true);
         }
 
 

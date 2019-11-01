@@ -4,24 +4,25 @@ using System.Linq;
 using System.Text;
 using WebApi.Dominio.Login.v1;
 using WebApi.infraestrutura.Contextos.v1;
+using WebApi.infraestrutura.InterfaceGenerica.v1.Repositorio;
 using WebApi.Interface.Infraestrutura.Login.v1;
 
 namespace WebApi.infraestrutura.Login.v1.Repositorio
 {
-    public class UsuarioLoginRepositorio : IUsuarioLoginRepositorio
+    public class UsuarioLoginRepositorio : CrudRepositorio<UsuarioLogin>, IUsuarioLoginRepositorio
     {
-        private ContextoSql _contexto;
+        private readonly ContextoSql _contexto;
 
-        public UsuarioLoginRepositorio(ContextoSql contexto)
+        public UsuarioLoginRepositorio(ContextoSql contexto) : base(contexto)
         {
             _contexto = contexto;
         }
 
-        public UsuarioLogin Retorna(UsuarioLogin login)
+        public UsuarioLogin Retorna(string login, string senha)
         {
             return _contexto.Logins
-                .Where(l => l.Senha.Equals(login.Senha)
-                       && l.Usuario.Equals(login.Usuario)
+                .Where(l => l.Senha.Equals(senha)
+                       && l.Usuario.Equals(login)
                        ).FirstOrDefault();
         }
 
@@ -40,10 +41,9 @@ namespace WebApi.infraestrutura.Login.v1.Repositorio
                 .Count() > 0;
         }
 
-        public bool Cadastra(UsuarioLogin login)
+        public void Cadastra(UsuarioLogin login)
         {
-            _contexto.Add(login);
-            return _contexto.SaveChanges() > 0;
+            base.Cadastra(login);
         }
 
         public bool AlteraSenhaDo(UsuarioLogin login)

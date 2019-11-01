@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebApi.Dominio\WebApi.Dominio.csproj" />
+    <ProjectReference Include="..\WebApi.DTO\WebApi.DTO.csproj" />
+    <ProjectReference Include="..\WebApi.Enums\WebApi.Enums.csproj" />
     <ProjectReference Include="..\WebApi.Interface.Repositorio\WebApi.Interface.Infraestrutura.csproj" />
     <ProjectReference Include="..\WebApi.Repositorio\WebApi.infraestrutura.csproj" />
   </ItemGroup>

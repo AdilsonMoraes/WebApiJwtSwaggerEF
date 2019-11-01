@@ -129,6 +129,7 @@ namespace WebApiCliente
                 .AddConsole()
                 .AddDebug();
 
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
