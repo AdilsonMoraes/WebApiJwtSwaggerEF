@@ -38,5 +38,10 @@ namespace WebApi.infraestrutura.Empresas.v1.Repositorio
         {
             base.Cadastra(empresa);
         }
+
+        public Empresa BuscarPeloCnpj(string cnpj)
+        {
+            return _contexto.Empresas.Where(w => w.Cnpj.Contains(cnpj)).FirstOrDefault();
+        }
     }
 }

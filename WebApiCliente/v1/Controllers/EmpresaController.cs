@@ -18,10 +18,8 @@ namespace WebApiCliente.v1.Controllers
     [Authorize]
     public class EmpresaController : ControllerBase
     {
-
         private readonly IEmpresaServico _empresaServico;
         private readonly IErrosMapperServico _errosMapper;
-
 
         public EmpresaController(IEmpresaServico empresaServico,
             IErrosMapperServico errosMapper)
@@ -29,7 +27,7 @@ namespace WebApiCliente.v1.Controllers
             _empresaServico = empresaServico;
             _errosMapper = errosMapper;
         }
-
+        
 
         [Route("CadastrarEmpresa")]
         [HttpPost]
@@ -100,7 +98,6 @@ namespace WebApiCliente.v1.Controllers
             return BadRequest("JSON inválido.");
         }
 
-
         [Route("BuscaEmpresa")]
         [HttpGet]
         public IActionResult BuscaEmpresa(string cnpj, string uf, string nome)
@@ -125,9 +122,6 @@ namespace WebApiCliente.v1.Controllers
                 return BadRequest(resposta);
             }
         }
-
-
-
 
         private static void MontaRespostaErro(ref MensagemResposta resposta, ErroException e)
         {

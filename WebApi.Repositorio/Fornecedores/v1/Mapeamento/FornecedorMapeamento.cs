@@ -18,7 +18,7 @@ namespace WebApi.infraestrutura.Fornecedores.v1.Mapeamento
                 .HasMaxLength(150)
                 .IsRequired();
 
-            builder.Property(h => h.CpfCnpj)
+            builder.Property(h => h.CpfCnpjFornecedor)
                 .HasColumnName("cpf_cnpj")
                 .HasMaxLength(14)
                 .IsRequired();

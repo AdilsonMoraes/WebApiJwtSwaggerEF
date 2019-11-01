@@ -36,13 +36,13 @@ namespace Webapi.Servico.Empresas.v1.Servico
             if (empresaCadastrada != null)
             {
                 _empresaRepositorio.Deletar(empresaCadastrada);
-            }            
+            }
         }
 
         public Empresa BuscarPeloCnpjUfNome(string cnpj, string uf, string nome)
         {
 
-            if(string.IsNullOrWhiteSpace(cnpj) || string.IsNullOrWhiteSpace(cnpj))
+            if (string.IsNullOrWhiteSpace(cnpj) || string.IsNullOrWhiteSpace(cnpj))
             {
                 throw new ErroException(EmpresaEnumException.CNPJ_NAO_INFORMADO.Codigo.ToString(),
                     EmpresaEnumException.CNPJ_NAO_INFORMADO.Valor);
@@ -62,7 +62,7 @@ namespace Webapi.Servico.Empresas.v1.Servico
 
 
             var empresaCadastrada = _empresaRepositorio.BuscarPeloCnpjUfNome(cnpj, uf, nome);
-            if(empresaCadastrada == null)
+            if (empresaCadastrada == null)
             {
                 throw new ErroException(EmpresaEnumException.EMPRESA_NAO_ENCONTRADA.Codigo.ToString(),
                     EmpresaEnumException.EMPRESA_NAO_ENCONTRADA.Valor);
@@ -71,8 +71,23 @@ namespace Webapi.Servico.Empresas.v1.Servico
             return empresaCadastrada;
         }
 
+        public Empresa BuscarPeloCnpjUfNome(string cnpj)
+        {
+            if (string.IsNullOrWhiteSpace(cnpj) || string.IsNullOrWhiteSpace(cnpj))
+            {
+                throw new ErroException(EmpresaEnumException.CNPJ_NAO_INFORMADO.Codigo.ToString(),
+                    EmpresaEnumException.CNPJ_NAO_INFORMADO.Valor);
+            }
 
+            var empresaCadastrada = _empresaRepositorio.BuscarPeloCnpj(cnpj);
+            if (empresaCadastrada == null)
+            {
+                throw new ErroException(EmpresaEnumException.EMPRESA_NAO_ENCONTRADA.Codigo.ToString(),
+                    EmpresaEnumException.EMPRESA_NAO_ENCONTRADA.Valor);
+            }
 
+            return empresaCadastrada;
+        }
 
     }
 }

@@ -9,8 +9,10 @@ namespace WebApi.DTO.Fornecedor.v1
     {
         [JsonProperty("nome")]
         public string Nome { get; set; }
-        [JsonProperty("cpf_cnpj")]
-        public string CpfCnpj { get; set; }
+        [JsonProperty("cpf_cnpj_fornecedor")]
+        public string CpfCnpjFornecedor { get; set; }
+        [JsonProperty("cpf_cnpj_empresa")]
+        public string CpfCnpjEmpresa { get; set; }
         [JsonProperty("data_cadastro")]
         public string DtCadastro { get; set; }
         [JsonProperty("telefone")]

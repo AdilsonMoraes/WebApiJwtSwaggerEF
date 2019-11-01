@@ -9,6 +9,7 @@ namespace WebApi.Interface.Infraestrutura.Empresas.v1
     {
         Empresa BuscarPeloId(int id);
         Empresa BuscarPeloCnpjUfNome(string cnpj, string uf, string nome);
+        Empresa BuscarPeloCnpj(string cnpj);
         void Salvar(Empresa empresa);
         void Deletar(Empresa empresa);
     }

@@ -11,8 +11,9 @@ namespace WebApi.Dominio.Fornecedores.v1
         public int Id { get; set; }
         public int IdEmpresa { get; set; }
         public string Nome { get; set; }
-        public string CpfCnpj { get; set; }
-        public DateTime DtCadastro { get; set; }
+        public string CpfCnpjFornecedor { get; set; }
+        public string CpfCnpjEmpresa { get; set; }
+        public DateTime DtCadastro { get; set; } 
         public string Telefone { get; set; }
         public DateTime DtNascimento { get; set; }
         public string TpCadastro { get; set; }
