@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using Microsoft.Extensions.Localization;
 using WebApi.Dominio.Globalizacao.v1;
 using WebApi.Dominio.Login.v1;
+using Microsoft.Extensions.Localization;
 
 namespace Webapi.Servico.Logins.v1.Validacao
 {

@@ -2,28 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebApi.Interface.Servico.Fornecedor.v1;
 
 namespace WebApiCliente.v1.Controllers
 {
-    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiController]
     [ApiVersion("1.0")]
-    [Authorize]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public class FornecedorController : ControllerBase
     {
-        private readonly IFornecedorServico _fornecedorServico;
-
-
-        public FornecedorController(IFornecedorServico fornecedorServico)
+        [Route("CadastrarFornecedor")]
+        [HttpPost]
+        public IActionResult Post()
         {
-            _fornecedorServico = fornecedorServico;
+            return Ok();
         }
-
-
-
-
     }
 }

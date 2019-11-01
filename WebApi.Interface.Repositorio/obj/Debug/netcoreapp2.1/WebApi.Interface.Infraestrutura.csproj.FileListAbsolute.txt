@@ -34,3 +34,15 @@ C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Interface.Repositori
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.csproj.CopyComplete
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.dll
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.pdb
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\bin\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.deps.json
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\bin\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\bin\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.pdb
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\bin\Debug\netcoreapp2.1\WebApi.Dominio.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\bin\Debug\netcoreapp2.1\WebApi.Dominio.pdb
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.csprojAssemblyReference.cache
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.csproj.CoreCompileInputs.cache
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.AssemblyInfoInputs.cache
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.AssemblyInfo.cs
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.csproj.CopyComplete
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.dll
+T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Repositorio\obj\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.pdb
