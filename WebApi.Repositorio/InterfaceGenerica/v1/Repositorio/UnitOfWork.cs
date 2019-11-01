@@ -7,11 +7,11 @@ using WebApi.Interface.Infraestrutura.InterfaceGenerica.v1;
 
 namespace WebApi.infraestrutura.InterfaceGenerica.v1.Repositorio
 {
-    public class UnitOfWork : IUnitOfWork
+    public class FonecedorRepositorio : IUnitOfWork
     {
         private readonly ContextoSql contexto;
 
-        public UnitOfWork(ContextoSql contexto)
+        public FonecedorRepositorio(ContextoSql contexto)
         {
             this.contexto = contexto ?? throw new ArgumentNullException(nameof(contexto));
         }

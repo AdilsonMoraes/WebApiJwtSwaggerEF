@@ -15,3 +15,12 @@ C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netco
 C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.dll
 C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.pdb
 C:\Users\adilson.moreira\source\repos\WebApiEfJwT\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.csprojAssemblyReference.cache
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.deps.json
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.dll
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\bin\Debug\netcoreapp2.1\WebApi.Dominio.pdb
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.csprojAssemblyReference.cache
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.AssemblyInfoInputs.cache
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.AssemblyInfo.cs
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.dll
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Dominio\obj\Debug\netcoreapp2.1\WebApi.Dominio.pdb

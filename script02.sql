@@ -18,3 +18,28 @@ IF NOT EXISTS (SELECT 1 FROM sysobjects WHERE name = 'usuario_login')
 
 	INSERT INTO [usuario_login] (usuario, Senha, IsAdministrator, TokenAuth)
 	VALUES ('ADM', 'ADM', 1, 'ADM123')
+
+IF NOT EXISTS (SELECT 1 FROM sysobjects WHERE name = 'empresa')
+BEGIN
+	CREATE TABLE empresa(
+		id INT IDENTITY PRIMARY KEY NOT NULL,
+		nome_fantasia VARCHAR(150) NOT NULL,
+		uf CHAR(2) NOT NULL,
+		cnpj VARCHAR(14) NOT NULL,
+	);
+END
+
+IF NOT EXISTS (SELECT 1 FROM sysobjects WHERE name = 'fornecedor')
+BEGIN
+	create table fornecedor(
+		id INT IDENTITY PRIMARY KEY NOT NULL,
+		id_empresa int references empresa(id) not null,
+		nome VARCHAR(150) NOT NULL,
+		cpf_cnpj VARCHAR(14) NOT NULL,
+		dt_cadastro DATETIME NOT NULL DEFAULT GETDATE(),
+		telefone varchar(12),
+		dt_nascimento DATETIME,
+		tp_cadasdro CHAR(2) NOT NULL DEFAULT 'PJ',
+		rg VARCHAR(9),
+	);
+END
