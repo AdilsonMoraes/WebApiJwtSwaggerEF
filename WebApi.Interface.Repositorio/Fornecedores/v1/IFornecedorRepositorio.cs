@@ -8,7 +8,7 @@ namespace WebApi.Interface.Infraestrutura.Fornecedores.v1
     public interface IFornecedorRepositorio
     {
         Fornecedor BuscaPeloId(int id);
-        Fornecedor BuscaPeloNomeCnpjData(string nome, string cnpj, DateTime dataCadastro);
+        List<Fornecedor> ConsultaFornecedorCustomizada(string querySql);
         void Salvar(Fornecedor fornecedor);
         void Deletar(int Id);
     }

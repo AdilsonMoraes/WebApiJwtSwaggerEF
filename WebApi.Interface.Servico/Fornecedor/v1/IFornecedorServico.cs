@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using WebApi.DTO.Fornecedor.v1;
 
 namespace WebApi.Interface.Servico.Fornecedor.v1
 {
     public interface IFornecedorServico
     {
-        Dominio.Fornecedores.v1.Fornecedor BuscaFornecedorPeloNomeCnpjData(string nome, string cnpj, string dataCadastro);
+        List<Dominio.Fornecedores.v1.Fornecedor> ProcesarConsulta(ConsultaFornecedorDTO dadosConsultaFornecedor);
+        void Salvar(FornecedorDTO dadosFornecedor);
     }
 }

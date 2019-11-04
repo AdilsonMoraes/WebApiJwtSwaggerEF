@@ -39,7 +39,6 @@ C:\Users\adilson.moreira\source\repos\WebApiEfJwT\Webapi.Servico\obj\Debug\netco
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\Webapi.Servico.deps.json
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\Webapi.Servico.dll
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\Webapi.Servico.pdb
-C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.Dominio.dll
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.infraestrutura.dll
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.dll
@@ -48,7 +47,6 @@ C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\ne
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.Interface.Infraestrutura.pdb
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.Interface.Servico.pdb
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.infraestrutura.pdb
-C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Localization.Abstractions.xml
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\obj\Debug\netcoreapp2.1\Webapi.Servico.csprojAssemblyReference.cache
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\obj\Debug\netcoreapp2.1\Webapi.Servico.csproj.CoreCompileInputs.cache
 C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\obj\Debug\netcoreapp2.1\Webapi.Servico.AssemblyInfoInputs.cache
@@ -78,3 +76,7 @@ T:\Projetos\Pessoais\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\W
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.Enums.dll
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.DTO.pdb
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.Enums.pdb
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.DTO.dll
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.Enums.dll
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.DTO.pdb
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\Webapi.Servico\bin\Debug\netcoreapp2.1\WebApi.Enums.pdb

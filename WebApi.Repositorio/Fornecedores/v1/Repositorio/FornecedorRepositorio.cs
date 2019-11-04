@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using WebApi.Dominio.Fornecedores.v1;
 using WebApi.infraestrutura.Contextos.v1;
@@ -21,11 +23,11 @@ namespace WebApi.infraestrutura.Fornecedores.v1.Repositorio
             throw new System.NotImplementedException();
         }
 
-        public Fornecedor BuscaPeloNomeCnpjData(string nome, string cnpj, DateTime dataCadastro)
+        public List<Fornecedor> ConsultaFornecedorCustomizada(string stringSql)
         {
-            return _contexto.Fornecedores.Where(w => w.Nome.Equals(nome)
-            && w.CpfCnpjFornecedor.Equals(cnpj)
-            && w.DtCadastro == dataCadastro).FirstOrDefault();
+            return contexto.Fornecedores
+                .FromSql(stringSql)
+                .ToList();
         }
 
         public void Deletar(int Id)

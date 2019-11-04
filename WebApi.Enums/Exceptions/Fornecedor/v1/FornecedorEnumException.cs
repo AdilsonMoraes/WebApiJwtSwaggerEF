@@ -6,8 +6,7 @@ namespace WebApi.Enums.Exceptions.Fornecedor.v1
 {
     public class FornecedorEnumException : BaseEnum<FornecedorEnumException, string>
     {
-        //public static FornecedorEnumException FORNECEDOR_INVALIDO = new FornecedorEnumException(6, "");
-        //public static FornecedorEnumException FORNECEDOR_NAO_INFORMADO = new FornecedorEnumException(7, "");
+        public static FornecedorEnumException DADOS_NAO_INFORMADO = new FornecedorEnumException(15, "Não foraminformados dados para consulta.");
 
         protected FornecedorEnumException(int codigo, string valor) : base(codigo, valor)
         {

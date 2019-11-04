@@ -62,3 +62,7 @@ T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Servico\bin\Debug\netco
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Servico\bin\Debug\netcoreapp2.1\WebApi.Enums.dll
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Servico\bin\Debug\netcoreapp2.1\WebApi.DTO.pdb
 T:\Projetos\Pessoais\WebApiJwtSwaggerEF\WebApi.Interface.Servico\bin\Debug\netcoreapp2.1\WebApi.Enums.pdb
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Interface.Servico\bin\Debug\netcoreapp2.1\WebApi.DTO.dll
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Interface.Servico\bin\Debug\netcoreapp2.1\WebApi.Enums.dll
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Interface.Servico\bin\Debug\netcoreapp2.1\WebApi.DTO.pdb
+C:\Users\Adilson\Documents\GitHub\WebApiJwtSwaggerEF\WebApi.Interface.Servico\bin\Debug\netcoreapp2.1\WebApi.Enums.pdb
